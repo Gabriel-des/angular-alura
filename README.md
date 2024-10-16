@@ -28,14 +28,15 @@ Execute `ng e2e` para executar os testes de ponta a ponta por meio de uma plataf
 
 ## Backend com json-server
 
-O backend deste projeto é simulado usando o [json-server](https://github.com/typicode/json-server). O **json-server** permite criar uma API REST completa com um arquivo JSON como banco de dados. Isso facilita o desenvolvimento, especialmente para simular o comportamento de um backend real.
+O backend deste projeto é simulado usando o json-server versão 0.17.4. O json-server permite criar uma API REST completa com um arquivo JSON como banco de dados. Isso facilita o desenvolvimento, especialmente para simular o comportamento de um backend real.
 
-### Como configurar o json-server:
+Como configurar o json-server:
+Instale o json-server versão 0.17.4 globalmente (caso ainda não tenha):
 
-1. Instale o json-server globalmente (caso ainda não tenha):
-   ```bash
-   npm install -g json-server
-   ```
+bash
+Copiar código
+npm install -g json-server@0.17.4
+
 
 2. Para iniciar o servidor backend com o json-server, execute:
    ```bash
