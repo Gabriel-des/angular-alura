@@ -33,9 +33,9 @@ O backend deste projeto é simulado usando o json-server versão 0.17.4. O json-
 Como configurar o json-server:
 Instale o json-server versão 0.17.4 globalmente (caso ainda não tenha):
 
-bash
-Copiar código
+```bash
 npm install -g json-server@0.17.4
+```
 
 
 2. Para iniciar o servidor backend com o json-server, execute:
