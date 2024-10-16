@@ -43,4 +43,6 @@ testem.log
 Thumbs.db
 
 # Backend Mock
-/backend
+/backend/node_modules
+/backend/package.json
+/backend/package-lock.json
